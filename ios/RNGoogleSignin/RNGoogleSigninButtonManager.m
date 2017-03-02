@@ -1,5 +1,5 @@
 
-#import "RCTViewManager.h"
+#import <React/RCTViewManager.h>
 #import "RNGoogleSignIn.h"
 
 @interface RNGoogleSigninButtonManager : RCTViewManager
@@ -38,3 +38,4 @@ RCT_CUSTOM_VIEW_PROPERTY(size, NSString, GIDSignInButton)
 //}
 
 @end
+
